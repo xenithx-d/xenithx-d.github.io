@@ -6,7 +6,7 @@ font-family: 'Ubuntu', sans-serif; */
 
 :root{
   --primary-color: #59472D; /* var(--primary-color);*/
-  --background-color: grey; /* var(--background-color); */
+  --background-color: #675B67; /* var(--background-color); */
   --accent-color: #5A4B73; /* var(--border-color); */
 
   --header-font: 'Ubuntu', sans-serif; /* var(--header-font); */
@@ -29,11 +29,12 @@ p{
   font-family: var(--body-font);
   text-align: center;
   margin:16px;
+  font-size: 15pt;
   color: lightgrey;
 }
 a{
   font-family: var(--body-font);
-  color: lightgrey;
+  color: #EFEFEC;
   text-decoration: none;
   transition:text-shadow 0.75s linear 0s;
   /* transition:color 0.75s linear 0s; */
@@ -72,7 +73,7 @@ iframe{
 .row{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 
   padding: 2%;
