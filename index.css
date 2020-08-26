@@ -27,6 +27,7 @@ h1{
 }
 p{
   font-family: var(--body-font);
+  text-align: center;
   margin:16px;
   color: lightgrey;
 }
@@ -45,6 +46,15 @@ a:hover{
 }
 img {
   margin: 4%;
+}
+iframe{
+  width:100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  border:none;
+  overflow: hidden;
+  scrolling:no;
 }
 .container{
   background-color: #EEEEEE77;
